@@ -1,7 +1,7 @@
 {
   "name": "tip-calc",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "tip-calc.js",
   "repository": "git@github.com:wdillard/tip-calc.git",
   "author": "wdillard <dillardwa@gmail.com>",
   "license": "MIT",

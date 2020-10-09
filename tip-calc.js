@@ -16,6 +16,9 @@ if (totalPartySize >= 6) {
     // If the party is six or more people then skip
     // over the percentage and force it to be 18%.
     tipPercentage = 18;
+    console.log(
+        "If party six is greater than 5, an automatic 18% tip will be applied."
+    );
   } else {
     // Get the % of the tip from the user
     tipPercentage = readlineSync.questionFloat(

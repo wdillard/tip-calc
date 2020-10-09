@@ -31,6 +31,6 @@ let billWithTip = totalAmount + totalAmountToTip;
 let totalPerPerson = billWithTip / totalPartySize;
 
 // Calculate how much everyone is paying
-console.log(`$${totalAmountToTip.toFixed(2)}`);
-console.log(`$${billWithTip.toFixed(2)}`);
-console.log(`$${totalPerPerson.toFixed(2)}`);
+console.log(`This will be your tip amount: $${totalAmountToTip.toFixed(2)}`);
+console.log(`This will be your bill amoutn with tip: $${billWithTip.toFixed(2)}`);
+console.log(`This will be the total amount per person: $${totalPerPerson.toFixed(2)}`);
